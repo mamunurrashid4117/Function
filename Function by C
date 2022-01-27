@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    hello("Mamun",22);
+    hello("Ratul",50);
+    hello("Shafin",90);
+    return 0;
+}
+void hello(char name[],int age)
+{
+    printf("Hi, I am %s.I am %d years old.\n",name,age);
+}
